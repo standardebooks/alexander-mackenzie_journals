@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexander-mackenzie/voyage-from-montreal-through-the-continent-of-north-america</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexander-mackenzie_robert-waite/journals</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -29,8 +29,15 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">Voyage from Montreal Through the Continent of North America</dc:title>
-		<meta property="file-as" refines="#title">Voyage from Montreal Through the Continent of North America</meta>
+		<dc:title id="title">Journals</dc:title>
+		<meta property="file-as" refines="#title">Journals</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">To the Frozen and Pacific Oceans in 1789 and 1793</dc:title>
+		<meta property="file-as" refines="#subtitle">To the Frozen and Pacific Oceans in 1789 and 1793</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</dc:title>
+		<meta property="file-as" refines="#fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Indians of North America -- Canada</dc:subject>
 		<dc:subject id="subject-2">Northwest, Canadian -- Description and travel</dc:subject>
 		<dc:subject id="subject-3">Fur trade -- Canada</dc:subject>
@@ -43,42 +50,49 @@
 		<meta property="term" refines="#subject-3">sh2008104213</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Travel</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35658</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/001971796</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-mackenzie_voyage-from-montreal-through-the-continent-of-north-america</meta>
-		<dc:creator id="author">Alexander Mackenzie</dc:creator>
-		<meta property="file-as" refines="#author">Mackenzie, Alexander</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alexander_Mackenzie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-mackenzie_robert-waite_journals</meta>
+		<dc:creator id="author-1">Alexander Mackenzie</dc:creator>
+		<meta property="file-as" refines="#author-1">Mackenzie, Alexander</meta>
+		<meta property="se:name.person.full-name" refines="#author-1">Sir Alexander Mackenzie</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Mackenzie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n2002125712</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="se:role" refines="#author-1" scheme="marc:relators">wpr</meta>
+		<meta property="se:role" refines="#author-1" scheme="marc:relators">ann</meta>
+		<dc:creator id="author-2">Robert Waite</dc:creator>
+		<meta property="file-as" refines="#author-2">Waite, Robert</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">win</meta>
+		<dc:contributor id="artist">J. E. H. MacDonald</dc:contributor>
+		<meta property="file-as" refines="#artist">MacDonald, J. E. H.</meta>
+		<meta property="se:name.person.full-name" refines="#artist">James Edward Hervey MacDonald</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/J._E._H._MacDonald</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85007103</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Owen O’Donovan</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">O'Donovan, Owen</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bystricky, Lukas</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">ann</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
