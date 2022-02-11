@@ -43,15 +43,18 @@ figure.full-page{
 }
 
 table{
-	margin: 1em;
 	border-bottom: 1px solid black;
-	border-top: 4px double black;
+	border-top: 1px solid black;
 	border-collapse: collapse;
+	margin: 1em;
 }
 
 th,
 td{
 	border-right: 1px solid black;
+	font-variant-numeric: tabular-nums;
+	padding: .5em;
+	vertical-align: baseline;
 }
 
 table,
@@ -59,16 +62,47 @@ th{
 	border-bottom: 1px solid black;
 }
 
-#doubleborder{
+[scope="rowgroup"]{
+	border-bottom: none;
+	border-top: none;
+	font-weight: normal;
+}
+
+#chapter-2-8 table,
+td,
+th{
+	border: none;
+	margin: 1em;
+}
+
+#chapter-2-11 table{
+	border: none;
+	margin: 1em;
+}
+
+#chapter-2-11 td{
+	border: none;
+	padding-left: 1em;
+}
+
+.double-border{
 	border-left: 4px double black;
 }
 
-#endcol{
+#chapter-2-11 .bottom-border{
+	border-bottom: 1px solid black;
+}
+
+.end-col{
 	border-right: none;
 }
 
-#centerdata{
-	text-align:center;
+.center-align{
+	text-align: center;
+}
+
+.right-align{
+	text-align: right;
 }
 
 footer{
@@ -78,4 +112,8 @@ footer{
 
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+dd + dt{
+	margin-top: 1em;
 }
