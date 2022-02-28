@@ -40,8 +40,8 @@ figure.full-page{
 
 table{
 	border-bottom: 1px solid black;
-	border-top: 1px solid black;
 	border-collapse: collapse;
+	border-top: 1px solid black;
 	margin: 1em;
 }
 
