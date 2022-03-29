@@ -55,7 +55,7 @@
 		<dc:description id="description">Explorer Alexander Mackenzie details his journeys to both the Arctic and Pacific Oceans in his personal journals.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/alexander-mackenzie"&gt;Alexander Mackenzie&lt;/a&gt; was the first European to complete a land crossing of the continent of America north of Mexico, preceding the famous Lewis and Clark expedition by twelve years. In his journals he details two separate voyages: one up what is now known as the Mackenzie River to the Arctic Ocean in 1789, and another to what is now Bella Coola on the Pacific Ocean in 1792 and 1793.&lt;/p&gt;
-			&lt;p&gt;Both journeys provide a detailed description of the many difficulties in navigating and traveling in a country that had yet to be mapped. Having to rely on Native guides and rumors, and enduring hardships that almost beggar belief, Mackenzie and his team were able to achieve their objective of finding an east to west land crossing through the Rocky Mountains and to the Pacific Ocean. Although his route didn’t prove as practical as routes found by later explorers, Mackenzie has cemented himself as a key explorer of Western Canada.&lt;/p&gt;
+			&lt;p&gt;Both journals provide a detailed description of the many difficulties in navigating and traveling in a country that had yet to be mapped. Having to rely on Native guides and rumors, and enduring hardships that almost beggar belief, Mackenzie and his team were able to achieve their objective of finding an east to west land crossing through the Rocky Mountains and to the Pacific Ocean. Although his route didn’t prove as practical as routes found by later explorers, Mackenzie has cemented himself as a key explorer of Western Canada.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35658</dc:source>
@@ -67,7 +67,7 @@
 		<dc:creator id="author-1">Alexander Mackenzie</dc:creator>
 		<meta property="file-as" refines="#author-1">Mackenzie, Alexander</meta>
 		<meta property="se:name.person.full-name" refines="#author-1">Sir Alexander Mackenzie</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Mackenzie</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Mackenzie_(explorer)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n2002125712</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author-1" scheme="marc:relators">wpr</meta>
@@ -81,6 +81,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n85137168</meta>
 		<meta property="display-seq" refines="#illustrator">0</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<meta property="se:role" refines="#illustrator" scheme="marc:relators">ctg</meta>
 		<dc:contributor id="artist">J. E. H. MacDonald</dc:contributor>
 		<meta property="file-as" refines="#artist">MacDonald, J. E. H.</meta>
 		<meta property="se:name.person.full-name" refines="#artist">James Edward Hervey MacDonald</meta>
