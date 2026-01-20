@@ -61,7 +61,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/35658</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001971796</dc:source>
 		<meta property="se:production-notes">Mackenzie’s journals were orignally published in two volumes as Voyages From Montreal Through the Continent of North America. The original publication contained an introduction to the fur trade in Canada, which has been omitted in the Standard Ebooks edition.</meta>
-		<meta property="se:word-count">121002</meta>
+		<meta property="se:word-count">120843</meta>
 		<meta property="se:reading-ease.flesch">58.96</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-mackenzie_journals</meta>
 		<dc:creator id="author">Alexander Mackenzie</dc:creator>
