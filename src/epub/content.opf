@@ -80,7 +80,6 @@
 		<meta property="file-as" refines="#illustrator">Arrowsmith, Aaron</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Aaron_Arrowsmith</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n85137168</meta>
-		<meta property="display-seq" refines="#illustrator">0</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ctg</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">J. E. H. MacDonald</dc:contributor>
