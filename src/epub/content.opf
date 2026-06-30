@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/alexander-mackenzie/journals</dc:identifier>
 		<dc:date>2022-02-28T19:10:34Z</dc:date>
 		<meta property="dcterms:modified">2022-02-28T19:10:34Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -49,9 +50,9 @@
 		<meta property="term" refines="#subject-3">sh2008104213</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">Adventure</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Travel</meta>
+		<meta property="schema:genre">Adventure</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Travel</meta>
 		<dc:description id="description">Explorer Alexander Mackenzie details his journeys to both the Arctic and Pacific Oceans in his personal journals.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/alexander-mackenzie"&gt;Alexander Mackenzie&lt;/a&gt; was the first European to complete a land crossing of the continent of America north of Mexico, preceding the famous Lewis and Clark expedition by twelve years. In his journals he details two separate voyages: one up what is now known as the Mackenzie River to the Arctic Ocean in 1789, and another to what is now Bella Coola on the Pacific Ocean in 1792 and 1793.&lt;/p&gt;
@@ -60,33 +61,34 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35658</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001971796</dc:source>
-		<meta property="se:production-notes">Mackenzie’s journals were orignally published in two volumes as Voyages From Montreal Through the Continent of North America. The original publication contained an introduction to the fur trade in Canada, which has been omitted in the Standard Ebooks edition.</meta>
-		<meta property="se:word-count">120843</meta>
-		<meta property="se:reading-ease.flesch">58.96</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-mackenzie_journals</meta>
+		<meta property="schema:wordCount">120843</meta>
+		<meta property="schema:educationalLevel">58.96</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/alexander-mackenzie_journals" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Alexander Mackenzie</dc:creator>
 		<meta property="file-as" refines="#author">Mackenzie, Alexander</meta>
-		<meta property="se:name.person.full-name" refines="#author">Sir Alexander Mackenzie</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alexander_Mackenzie_(explorer)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n2002125712</meta>
+		<meta property="schema:alternateName" refines="#author">Sir Alexander Mackenzie</meta>
+		<link href="https://en.wikipedia.org/wiki/Alexander_Mackenzie_(explorer)" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n2002125712.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="writer-of-introduction">Robert Waite</dc:contributor>
 		<meta property="file-as" refines="#writer-of-introduction">Waite, Robert</meta>
 		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-introduction">http://id.loc.gov/authorities/names/n88279869</meta>
+		<link href="https://id.loc.gov/authorities/names/n88279869.html" refines="#writer-of-introduction" rel="schema:sameAs"/>
 		<dc:contributor id="illustrator">Aaron Arrowsmith</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Arrowsmith, Aaron</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Aaron_Arrowsmith</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n85137168</meta>
+		<link href="https://en.wikipedia.org/wiki/Aaron_Arrowsmith" refines="#illustrator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85137168.html" refines="#illustrator" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ctg</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">J. E. H. MacDonald</dc:contributor>
 		<meta property="file-as" refines="#artist">MacDonald, J. E. H.</meta>
-		<meta property="se:name.person.full-name" refines="#artist">James Edward Hervey MacDonald</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/J._E._H._MacDonald</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85007103</meta>
+		<meta property="schema:alternateName" refines="#artist">James Edward Hervey MacDonald</meta>
+		<link href="https://en.wikipedia.org/wiki/J._E._H._MacDonald" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85007103.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Owen O’Donovan</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">O’Donovan, Owen</meta>
@@ -103,7 +105,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

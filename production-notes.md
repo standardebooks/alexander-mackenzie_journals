@@ -1,0 +1,1 @@
+Mackenzie’s journals were orignally published in two volumes as Voyages From Montreal Through the Continent of North America. The original publication contained an introduction to the fur trade in Canada, which has been omitted in the Standard Ebooks edition.
