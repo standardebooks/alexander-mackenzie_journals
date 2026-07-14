@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</dc:title>
 		<meta property="file-as" refines="#fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Indians of North America -- Canada</dc:subject>
 		<dc:subject id="subject-2">Northwest, Canadian -- Description and travel</dc:subject>
 		<dc:subject id="subject-3">Fur trade -- Canada</dc:subject>
