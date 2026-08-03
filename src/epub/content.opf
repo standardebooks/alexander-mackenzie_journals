@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/alexander-mackenzie/journals</dc:identifier>
 		<dc:date>2022-02-28T19:10:34Z</dc:date>
@@ -53,11 +53,11 @@
 		<meta property="schema:genre">Adventure</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Travel</meta>
-		<dc:description id="description">Explorer Alexander Mackenzie details his journeys to both the Arctic and Pacific Oceans in his personal journals.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Explorer Alexander Mackenzie details his journeys to both the Arctic and Pacific Oceans in his personal journals.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/alexander-mackenzie"&gt;Alexander Mackenzie&lt;/a&gt; was the first European to complete a land crossing of the continent of America north of Mexico, preceding the famous Lewis and Clark expedition by twelve years. In his journals he details two separate voyages: one up what is now known as the Mackenzie River to the Arctic Ocean in 1789, and another to what is now Bella Coola on the Pacific Ocean in 1792 and 1793.&lt;/p&gt;
 			&lt;p&gt;Both journals provide a detailed description of the many difficulties in navigating and traveling in a country that had yet to be mapped. Having to rely on Native guides and rumors, and enduring hardships that almost beggar belief, Mackenzie and his team were able to achieve their objective of finding an east to west land crossing through the Rocky Mountains and to the Pacific Ocean. Although his route didn’t prove as practical as routes found by later explorers, Mackenzie has cemented himself as a key explorer of Western Canada.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35658</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001971796</dc:source>
