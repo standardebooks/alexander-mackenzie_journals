@@ -38,10 +38,10 @@
 		<dc:title id="fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</dc:title>
 		<meta property="file-as" refines="#fulltitle">Journals: To the Frozen and Pacific Oceans in 1789 and 1793</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Indians of North America -- Canada</dc:subject>
-		<dc:subject id="subject-2">Northwest, Canadian -- Description and travel</dc:subject>
-		<dc:subject id="subject-3">Fur trade -- Canada</dc:subject>
-		<dc:subject id="subject-4">Indians of North America -- Canada -- Languages -- Glossaries, vocabularies, etc.</dc:subject>
+		<dc:subject id="subject-1">Indians of North America--Canada</dc:subject>
+		<dc:subject id="subject-2">Northwest, Canadian--Description and travel</dc:subject>
+		<dc:subject id="subject-3">Fur trade--Canada</dc:subject>
+		<dc:subject id="subject-4">Indians of North America--Canada--Languages--Glossaries, vocabularies, etc.</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85065444</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
