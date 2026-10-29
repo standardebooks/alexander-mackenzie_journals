@@ -68,7 +68,6 @@
 		<link href="https://github.com/standardebooks/alexander-mackenzie_journals" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Alexander Mackenzie</dc:creator>
 		<meta property="file-as" refines="#author">Mackenzie, Alexander</meta>
-		<meta property="schema:alternateName" refines="#author">Sir Alexander Mackenzie</meta>
 		<link href="https://en.wikipedia.org/wiki/Alexander_Mackenzie_(explorer)" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n2002125712.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
